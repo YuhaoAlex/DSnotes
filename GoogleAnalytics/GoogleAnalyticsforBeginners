@@ -1,0 +1,18 @@
+1. To collect data:
+  • add analytics code to each webpage
+   
+2. Can collect data:
+  • language user using
+  • Type of browser
+  • Device info
+  ....
+  
+3. Session:
+  • inactive for 30 minutes
+  
+4. Once data stored, can't change
+
+5. Account -> Property -> View
+
+6. Put analytics tracking code at:
+  •immediately 
