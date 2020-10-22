@@ -47,3 +47,36 @@
             •Quality of the source: All traffic -> Source/Medium
 
 3.3 Behavior: Analyze each part of your website, like enagement time for each page of your site, bounce rate of each page, analysis of each landing page, exit page
+
+
+#Chapter4
+4.1 Measure campaign: medium, source, campaign, content, term
+
+4.2 • campaign URL builder, spreadsheet.
+    • case sensitive
+    • _instead of blank in link
+    • =concatenate(B2,C2,D2,E2,F2,G2,H2,I2,J2,K2,L2,M2,N2)
+
+4.3 •Goals: 
+          •Business goals: Actions that you want your users to take on your website, like a trasaction. When user compeletes one of your business goals, it's a conversion
+          •Google analytics goals: a feature called goals to track conversion, like total number of conversions
+                                   (Goal funnel, data visualization of different steps needed to complete the goal, this helps to identify where users are dropping
+                                   out of the conversion process)
+     •Geo->Goal, Medium/Source->Goal
+     
+4.4 Adwords: Allow business to generate and display ads
+     
+4.5 Behavior-> Site Content -> Second Dimension: User type =>See which which page has the most new users
+    Acquisition -> Campaigns -> Device type => See which kind of device performs best(least bounce rate), or worst(most bounce rate)
+    Audience -> Geo -> Goal conversion rate => which country performs best to achieve your goal
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
