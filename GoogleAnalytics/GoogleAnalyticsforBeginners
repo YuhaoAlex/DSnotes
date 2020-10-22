@@ -15,4 +15,35 @@
 5. Account -> Property -> View
 
 6. Put analytics tracking code at:
-  •immediately 
+  •immediately after <head> tag of your website
+  
+7. The filter will filter data in the order of the filter is created
+
+
+#Chapter2
+
+•Audience -> Overview -> Location ->Dimensions, Search, Piechart, Pivot Table
+
+•Users metric: at least one session
+ Bounce Rate: Percentage of users that land on your web and exit without any interactions
+ dimension: an attribute of data that can be organized for better analysis
+ metric: a dimension that can help to analyze
+ 
+ 
+ #Chapter3
+ 
+3.1  Audience analysis-> overview, active users, Demographics(Age, Gender), Interest, Geo, Behavior(new VS returning, frequency, engagement, session quality), 
+    Technology(os, mobile, browser)
+
+3.2  Aquisition: Decide how platforms perform, decide how to invest.
+    Medium: •organic: through unpaid search
+            •CPC: through paid search campaign like Google AdWords
+            •Referral: user arrive your site atfer clicking on a website other than the search engine
+            •Email: From email advertisement
+            •None: Typing URL
+    Source: More info about the medium
+            •eg, when referral, will provide the url of the website that refers the user to your web
+            •Ogranic: Search engine
+            •Quality of the source: All traffic -> Source/Medium
+
+3.3 Behavior: Analyze each part of your website, like enagement time for each page of your site, bounce rate of each page, analysis of each landing page, exit page
