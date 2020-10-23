@@ -1,0 +1,26 @@
+1. =VLOOKUP(A7, A2:B5, 2, FALSE)   => Lookup A7 in table A2:B5, value in column2, FALSE means exact lookup
+    查阅值所在的区域。 请记住，查阅值应该始终位于所在区域的第一列，这样 VLOOKUP 才能正常工作。 例如，如果查阅值位于单元格 C2 内，那么您的区域应该以 C 开头。
+
+2. =IF(C2='YES', 1,2)    => if C2='YES', return 1, else return 0
+
+3. =IFS(B2>=E2, F2, B2>=E3, F3, B2>=E4, F4) if B2>=E2 then F2, if B2>=E3 then F3
+
+4. =SUMIF(A2:A13, “肉类”, F2:F13) => 累加F2:F13中对应A2:A13中是肉类的值
+
+5. =SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)
+   =SUMIFS(A3:A10,B3:B10,B13,C3:C10,A13) 累加A3:A10中, 符合B3:B10里等于B13 and C3:C10中等于A13的值
+   
+6. =MATCH(39,B2:B5,1)
+
+7. =CHOOSE(index_num, value1, [value2], ...)
+  =SUM(CHOOSE(2,A1:A10,B1:B10,C1:C10))  相当于 =SUM(B1:B10)
+  
+  
+
+
+
+
+
+
+
+
