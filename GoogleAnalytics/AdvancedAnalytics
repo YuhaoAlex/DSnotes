@@ -1,0 +1,38 @@
+# Chapter1
+
+1.1 How GA collects data: By hit, which contains multiple information about that hit, like users screen resolution, lenguage, name of the page viewing, analytics ID
+
+    Three types of hits: Pageview -> when user view a page
+                         Event ->  when user iteracts with the page, like clicking the video playing button, 
+                                   includes information of: Action, Category, Label, Value
+                         Trasaction(Ecommerce) hit: product purchased, product ID. and stock keeping units(SKU)
+                         
+                         Social hits: like, sharing, 
+                         Page Timing hits: page timing
+
+1.2 Categorizing into users and sessions
+    • new user vs returning user: track by cookie, same device and same browse -> same user
+                                                   different device -> new user
+                                                   cookie blocked or cleaned -> new user
+                                                   If want track across device -> enable UerID 
+    
+    •session: to learn how user engage with the website, group the hits based on the time which the hits were generated
+    
+    •other data source
+    
+1.3 Transforming data using configuration riles:
+    • Filters
+    • Golas: Destination/Pageviews -> when user lands on page of website
+             Event -> When user performs spercific actions
+             Duration -> Seesions over set amount of time
+             Pages/Screens per Session -> User views set amount of pages within session
+             
+    
+    
+    
+    
+    
+    
+    
+    
+    
