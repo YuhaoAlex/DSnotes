@@ -58,8 +58,16 @@
     Custom
                                   
 2.3 Create custom Dimensions: Similar to default dimensions, but you define what they are and the value                                   
+    eg: (php), get the author          
+                    ga('send', 'pageview', {
+                      'dimension5': '<?=$author?>'
+                    });          
     
+2.4 Create custom metrics:
+    eg:
     
-    
-    
+2.5 Understand user behavior with event tracking:
+    • for each event, need to add tracking code for that button
+    • once clicked, event will sending code including: Category, action, label, value
+      ![image](https://github.com/YuhaoAlex/DSnotes/blob/master/GoogleAnalytics/WX20201028-113812.png)
     
