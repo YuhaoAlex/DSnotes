@@ -69,5 +69,5 @@
 2.5 Understand user behavior with event tracking:
     • for each event, need to add tracking code for that button
     • once clicked, event will sending code including: Category, action, label, value
-      ![image](https://github.com/YuhaoAlex/DSnotes/blob/master/GoogleAnalytics/WX20201028-113812.png)
+      ![image](https://github.com/YuhaoAlex/DSnotes/blob/master/GoogleAnalytics/WX20201028-113812.png);
     
