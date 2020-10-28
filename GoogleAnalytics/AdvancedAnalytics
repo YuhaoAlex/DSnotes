@@ -27,11 +27,37 @@
              Duration -> Seesions over set amount of time
              Pages/Screens per Session -> User views set amount of pages within session
              
-1.4
+1.4 Storing and Generating reports
+    Avg Session Time: Avge time user spend from the first to the last hit during a session
+    Bounce Rate: rate of user who only has one iteration on your site without a secon iteraction to calculate
+    
+    levels of dimenssion: •Hit level: page title
+                          •Session level: device category
+                          •User level: User type
+    Standard users, session defined before the view, so there are fewer sessions in the view
+    When you define a filter in the view, the data filtered will not be recovered
+    
+1.5 Creating a measurement plan
+    •set macro objective and micro objective
+    •
     
     
     
-    
+ Chapter 2 Setting up data collection and configuration 
+ 
+2.1 Organize and analytics account
+        •1 Organization
+        •1 account
+        •1 or more property -> 3 veiws: raw data view, test view, master view
+        
+     cross-domain tracking  or site linking: tracking one property in different website with different URLs
+                                             It can recognize when user explores between related website during one session
+                                             need to modify tracking code -> google Tag
+2.2 Set up filters
+    Predefined
+    Custom
+                                  
+2.3 Create custom Dimensions: Similar to default dimensions, but you define what they are and the value                                  
     
     
     
