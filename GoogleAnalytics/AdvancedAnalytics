@@ -43,7 +43,7 @@
     
     
     
- Chapter 2 Setting up data collection and configuration 
+#Chapter 2 Setting up data collection and configuration 
  
 2.1 Organize and analytics account
         •1 Organization
@@ -68,6 +68,36 @@
     
 2.5 Understand user behavior with event tracking:
     • for each event, need to add tracking code for that button
-    • once clicked, event will sending code including: Category, action, label, value
-      ![image](https://github.com/YuhaoAlex/DSnotes/blob/master/GoogleAnalytics/WX20201028-113812.png);
+    • once clicked, event will sending code including: Category, action, label, value -> Videos, play, [name of the video, numerical value like the amount of time]
+    • Total event, unique event
     
+2.6.1 Set up internal site search: session with search
+                                   total unique searches
+                                   results pageviews/search
+                                   %search exits -> percentage of immediately exit atfer search ->25.8%
+                                   %search refinements -> percentage of immediately second search after the first one -> 25.02%
+                                   time after search-> 2:14
+                                   average search depth: number of pages viewed after getting back search results -> 4.29
+2.6.2 Calculated metrics: view -> calculated metrics
+2.6.3 Channel grouping: direct, organic search, paid search, email, refferal, social, display, affliates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
