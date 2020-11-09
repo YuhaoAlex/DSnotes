@@ -3,3 +3,10 @@
   random.random(): random float number from 0 to 1
   random.randn([d0,d1,d2]): return a d0*d1*d2 array of standard normal distribution, if d not provided, return a float of standard normal distribution 
   
+2. TF-IDF: term frequency-Inverse document frequency
+  term frequency: number of occurances of a word in a documnet
+  document frequency: the number of documents where a term occurs
+  score = TF/DF = TF*IDF
+  
+ 
+
