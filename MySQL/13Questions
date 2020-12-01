@@ -1,0 +1,41 @@
+https://zhuanlan.zhihu.com/p/214295381
+
+1. myisam vs innodb
+
+2. types of lock: 
+    reading lock: only for read, no writing 
+    writing lock: block other user's reading and writing : 
+                                                          table lock, row lock
+
+3. ACID:
+  Atomicity:Transactions are often composed of multiple statements. Atomicity guarantees that each transaction is treated as a single "unit", which either succeeds completely, or fails completely 
+  
+  Consostency: Consistency ensures that a transaction can only bring the database from one valid state to another, maintaining database invariants
+  
+  Isolation:Transactions are often executed concurrently, Isolation ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially
+  
+  Durability: Durability guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure 
+  
+4. what to ensure ACID
+  Atomicity: undo log,  记录了需要回滚的日志信息，回滚时撤销已经执行成功的sql
+  C: 代码层面
+  I: MVCC
+  D: 持久性memory和redo log
+  
+5. MVCC(multi version concurrency control:
+  MVCC provides each user connected to the database with a "snapshot" of the data to work with.
+  provides concurrent access to the database without locking the data. This feature improves the performance of database applications in a multiuser environment
+ 
+ 幻读
+ 
+6.你们数据量级多大？分库分表怎么做的？
+  先垂直后水平
+  首先根据业务场景来决定使用什么字段作为分表字段(sharding_key)，比如我们现在日订单1000万，我们大部分的场景来源于C端，我们可以用user_id作为sharding_key，数据查询支持到最近3个月的订单，
+  超过3个月的做归档处理，那么3个月的数据量就是9亿，可以分1024张表，那么每张表的数据大概就在100万左右。比如用户id为100，那我们都经过hash(100)，然后对1024取模，就可以落到对应的表上了。
+  
+  
+7.isolation 的级别
+  read uncommited:
+  read commited:
+  repeatable read:
+  serializable:
